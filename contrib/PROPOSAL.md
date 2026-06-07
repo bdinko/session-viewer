@@ -108,8 +108,12 @@ isn't present, so it won't break installs that lack it.
 
 ## How to get it
 
-Standalone repo (local): `D:\CarpioAI\GitHub\session-viewer`
-The folder is self-contained — copy `SKILL.md`, `render_session.py`, `README.md` as-is.
+Public repo: **https://github.com/bdinko/session-viewer**
 
-No remote is published yet; if you'd prefer to pull it from a Git remote rather than a
-folder copy, say the word and it can be pushed somewhere you can fetch.
+```bash
+git clone https://github.com/bdinko/session-viewer.git
+```
+
+The folder is self-contained — copy `SKILL.md`, `render_session.py`, and `README.md`
+into your plugin's `skills\session-viewer\` as-is (the `contrib/` folder is just this
+proposal and can be ignored when bundling).

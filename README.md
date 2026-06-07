@@ -9,6 +9,29 @@ transcript folder under `~/.claude/projects/`.
 
 ---
 
+## Install
+
+Clone the repo and put the skill folder into your Claude Code skills directory:
+
+```bash
+git clone https://github.com/bdinko/session-viewer.git
+```
+
+Place `SKILL.md`, `render_session.py`, and `README.md` under:
+
+```
+~/.claude/skills/session-viewer/          # global (all projects)
+# or
+<project>/.claude/skills/session-viewer/  # single project
+```
+
+On Windows you can instead point a directory junction at your clone so edits stay in one
+place: `mklink /J "%USERPROFILE%\.claude\skills\session-viewer" "<clone-path>"`.
+
+Requires Python 3 on `PATH` (`python`, or `py` on Windows).
+
+---
+
 ## What it's for
 
 Claude Code stores every session as a raw `.jsonl` file (one JSON object per line) —
