@@ -119,3 +119,9 @@ python render_session.py list --project "D:\SomeOther\Project"
 | `SKILL.md` | Skill definition the assistant reads (triggers + workflow). |
 | `render_session.py` | The read-only list/render/resume engine. |
 | `README.md` | This file — human usage guide. |
+
+---
+
+## License
+
+[MIT](LICENSE) © 2026 Dinko Bačun
